@@ -1,9 +1,11 @@
 
 
-function page() {
+
+
+function Page() {
   return (
     <div>page</div>
   )
 }
 
-export default page
+export default Page

@@ -76,7 +76,7 @@ const academicData = [
   },
 ];
 
-function page() {
+function Page() {
   const [selectedProgramIndex, setSelectedProgramIndex] = useState(0);
   const [buttonColor, setButtonColor] = useState("EARLY YEARS PROGRAMME"); 
   function handleAcademicBtn(index) {
@@ -121,4 +121,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

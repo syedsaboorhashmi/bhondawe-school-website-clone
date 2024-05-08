@@ -186,7 +186,7 @@ const buttonData = [
     ),
   },
 ];
-function page() {
+function Page() {
   const [displayText, setDisplayText] = useState(buttonData[0].content);
   const [buttonColor, setButtonColor] = useState("Mission & Vision");
 
@@ -219,4 +219,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

@@ -2,7 +2,7 @@
 import { useState } from "react";
 import CommonBanner from "../Components/CommonBanner";
 
-function page() {
+function Page() {
   const [messageData, setMessageData] = useState({
     mName: "",
     mMobile: "",
@@ -115,4 +115,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

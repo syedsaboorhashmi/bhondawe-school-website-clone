@@ -67,7 +67,7 @@ const infraData = [
   },
 ];
 
-function page() {
+function Page() {
   return (
     <>
       <div>
@@ -93,4 +93,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

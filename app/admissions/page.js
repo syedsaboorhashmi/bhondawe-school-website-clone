@@ -3,7 +3,7 @@
 import { useState } from "react";
 import CommonBanner from "../Components/CommonBanner";
 
-function page() {
+function Page() {
   const [formData,setFormData]=useState({
     fname:"",
     grade:"",
@@ -118,4 +118,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
