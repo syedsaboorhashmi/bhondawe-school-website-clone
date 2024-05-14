@@ -85,7 +85,7 @@ function Page() {
 
   return (
     <>
-      <div>
+      <div className=" sm:py-0 py-2">
         <CommonBanner title="Academics" />
       </div>
       <div className="container mx-auto">

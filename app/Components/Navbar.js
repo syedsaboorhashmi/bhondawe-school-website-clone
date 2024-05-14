@@ -30,7 +30,7 @@ const navData = [
 ];
 function Navbar() {
   return (
-    <div className=" flex  bg-blue-900 w-full h-9">
+    <div className=" flex  bg-blue-900 w-full h-9  sm:py-0 py-2 ">
       <ul className="  pl-2 py-2 lg:flex md:flex sm:flex lg:gap-6 md:gap-3 sm:gap-2 text-white text-sm font-semibold">
         
 

@@ -194,7 +194,7 @@ function Page() {
     setDisplayText(content);
   };
   return (
-    <div>
+    <div className="sm:py-0 py-2">
       <div>
         <img src="../images/about-bg.webp" />
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-8 py-10 space-x-0 md:space-x-3">

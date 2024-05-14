@@ -70,10 +70,10 @@ const infraData = [
 function Page() {
   return (
     <>
-      <div>
+      <div className=" sm:py-0 py-2">
       <CommonBanner title="Our Infrastructure"/>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto sm:py-0 py-2">
         <div className="grid content-start grid-cols-1 md:grid-cols-2 justify-start self-start items-start cards row-start-1 col-start-1">
           {infraData.map((item,i) => (
             <div key={i} className="m-5 bg-white border rounded-b-md">

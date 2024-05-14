@@ -3,7 +3,7 @@ import Navbar from "./Navbar"
 
 function Header() {
   return (
-    <div>
+    <div className="sm:py-0 py-2">
     <div className="bg-red-700 w-full flex justify-between ">
         <p className="text-white text-sm py-1 hidden md:block lg:block xl:block">bhondwepatilschool@gmail.com</p>
         <a href="url" className="text-white text-sm py-1 hidden md:block lg:block xl:block">facebook</a>

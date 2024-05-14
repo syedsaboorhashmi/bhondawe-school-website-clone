@@ -3,7 +3,7 @@
 function MidDiv() {
     return (
       <>
-        <div className=" container mx-auto px-2 md:px-36 md:py-12 grid grid-cols-1 md:grid-cols-2 py-2  ">
+        <div className=" container mx-auto px-2 md:px-36 md:py-12 grid grid-cols-1 md:grid-cols-2 sm:py-0 py-2  ">
           <div className="flex justify-between">
             <img
               className="inline-block overflow-hidden"

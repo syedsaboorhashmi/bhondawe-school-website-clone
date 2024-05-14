@@ -26,7 +26,7 @@ function Page() {
   }
   return (
     <>
-      <div>
+      <div className="sm:py-0 py-2">
         <CommonBanner title="Admissions" />
       </div>
       <div className="container bg-slate-100 py-5 sm:py-10 ">

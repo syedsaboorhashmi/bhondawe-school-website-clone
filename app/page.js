@@ -5,7 +5,7 @@ import MidDiv from "./Components/MidDIv";
 
 export default function Home() {
   return (
-    <main>
+    <main className="sm:py-0 py-2">
       <Carousel/>
       <MidDiv/>
     </main>

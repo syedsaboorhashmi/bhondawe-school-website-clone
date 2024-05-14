@@ -20,7 +20,7 @@ function Page() {
   };
   return (
     <>
-      <div>
+      <div className=" sm:py-0 py-2">
         <CommonBanner title="Contact Us" />
       </div>
       <div className="container mx-auto grid grid-cols-1 items-center justify-center space-y-5 py-10 ">
