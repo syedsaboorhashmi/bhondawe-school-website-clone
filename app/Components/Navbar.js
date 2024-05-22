@@ -21,16 +21,9 @@ const navData = [
     title: "Admissions",
     path: "/admissions",
   },
-  {
-    id: 3,
-    title: "Mandatory Public Disclosure",
-    path: "/mandatoryPublicDisclosure",
-  },
-  { id: 4, title: "Academics", path: "/academics" },
-  { id: 5, title: "Achievements", path: "/achievements" },
-  { id: 6, title: "Infrastructure", path: "/infrastructure" },
-  { id: 7, title: "Gallery", path: "/gallery" },
-  { id: 8, title: "Contact Us", path: "/contactUs" },
+  { id: 3, title: "Academics", path: "/academics" },
+  { id: 4, title: "Infrastructure", path: "/infrastructure" },
+  { id: 5, title: "Contact Us", path: "/contactUs" },
 ];
 function Navbar() {
   const [open, setOpen]=useState(false);
@@ -46,7 +39,7 @@ function Navbar() {
       `}>
         {navData.map((item, i) => (
           <Link key={i} href={item.path}>
-            <li className=" py-3 font-bold pl-2 border-b-2 rounded-sm sm:border-0 sm:flex sm:py-0">{item.title}</li>
+            <li onClick={()=>setOpen(!open)} className=" py-3 font-bold pl-2 border-b-2 rounded-sm sm:border-0 sm:flex sm:py-0">{item.title}</li>
           </Link>
         ))}
       </ul>

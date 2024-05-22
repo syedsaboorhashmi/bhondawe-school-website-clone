@@ -3,7 +3,7 @@
 function Footer() {
     return (
     <>
-      <div className=" container mx-auto grid grid-cols-1 md:grid-cols-3 justify-between items-start pt-8 pb-5 ">
+      <div className=" container pl-5 mx-auto grid grid-cols-1 md:grid-cols-3 justify-between items-start pt-8 pb-5 ">
         <div>
         <h3 className="text-left text-red-700 text-2xl font-semibold underline underline-offset-8 decoration-gray-300 pb-5"> School Address</h3>
         <p className="text-left text-blue-900">
