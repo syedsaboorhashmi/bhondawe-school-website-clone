@@ -49,7 +49,7 @@ function Page() {
           </div>
           <div className="bg-blue-900 rounded-md p-12">
             <div className="text-2xl md:w-xl text-gray-200">
-              <span className="text-3xl text-gray-200 font-semibold mb-4">
+              <span className=" text-2xl sm:text-3xl text-gray-200 font-semibold mb-4">
                 Send Us a Message
               </span>
               <form onSubmit={handleSubmit}>

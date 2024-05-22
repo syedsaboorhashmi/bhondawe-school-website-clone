@@ -31,12 +31,12 @@ import { Pagination, Navigation } from "swiper/modules";
 
 export default function Carousel() {
   return (
-    <>
+    <div className="">
       <Swiper
         pagination={true}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper "
       >
         {sliderData.map((item, i) => (
           <div key={i}>
@@ -46,6 +46,6 @@ export default function Carousel() {
           </div>
         ))}
       </Swiper>
-    </>
+    </div>
   );
 }
